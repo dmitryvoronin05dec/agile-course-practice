@@ -64,12 +64,9 @@ include "code/volkov-denis"
 project(":code/volkov-denis").name = "volkov-denis-Model"
 
 // Воронин Дмитрий
-include "code/haffman-method/Model"
-project(":code/haffman-method/Model").name = "haffman-method"
-include "code/haffman-method/ViewModel"
-project(":code/haffman-method/ViewModel").name = "haffman-method"
-include "code/haffman-method/View"
-project(":code/haffman-method/View").name = "haffman-method"
+include "code/voronin-dmitry-lab2/Model"
+project(":code/voronin-dmitry-lab2/Model").name = "voronin-dmitry-lab2"
+
 // Грошева Людмила
 include "code/grosheva-ludmila"
 project(":code/grosheva-ludmila").name = "grosheva-ludmila-Model"
