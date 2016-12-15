@@ -64,6 +64,12 @@ include "code/volkov-denis"
 project(":code/volkov-denis").name = "volkov-denis-Model"
 
 // Воронин Дмитрий
+include "code/hafman-method/Model"
+project(":code/hafman-method/Model").name = "hafman-method"
+include "code/hafman-method/ViewModel"
+project(":code/hafman-method/ViewModel").name = "hafman-method"
+include "code/hafman-method/View"
+project(":code/hafman-method/View").name = "hafman-method"
 // Грошева Людмила
 include "code/grosheva-ludmila"
 project(":code/grosheva-ludmila").name = "grosheva-ludmila-Model"
