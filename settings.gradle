@@ -64,8 +64,8 @@ include "code/volkov-denis"
 project(":code/volkov-denis").name = "volkov-denis-Model"
 
 // Воронин Дмитрий
-include "code/huffman/Model"
-project(":code/huffman/Model").name = "huffman-Model"
+//include "code/huffman/Model"
+//project(":code/huffman/Model").name = "huffman-Model"
 //include "code/huffman/ViewModel"
 //project(":code/huffman/ViewModel").name = "huffman-ViewModel"
 include "code/huffman/View"
