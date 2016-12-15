@@ -68,8 +68,8 @@ include "code/huffman/Model"
 project(":code/huffman/Model").name = "huffman-Model"
 //include "code/huffman/ViewModel"
 //project(":code/huffman/ViewModel").name = "huffman-ViewModel"
-//include "code/huffman/View"
-//project(":code/huffman/View").name = "huffman-View"
+include "code/huffman/View"
+project(":code/huffman/View").name = "huffman-View"
 
 
 // Грошева Людмила
