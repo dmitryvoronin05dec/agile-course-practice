@@ -1,7 +1,7 @@
 apply from:   rootDir.getAbsolutePath() + '/code/config/scripts/javafx.plugin'
 
 dependencies {
-    compile project(':voronin-dmitry-Model1')
+    compile project(':voronin-dmitry-View')
 }
 
 sourceSets {
