@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(final Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Huffman.FXML"));
+        Parent root = FXMLLoader.load(getClass().getResource("ru/unn/agile/Huffman/view/Huffman.FXML"));
         primaryStage.setTitle("Операции над трёхмерными векторами");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
