@@ -1,4 +1,11 @@
+apply from:   rootDir.getAbsolutePath() + '/code/config/scripts/javafx.plugin'
+
+dependencies {
+    compile project(':huffman')
+}
+
 sourceSets {
     main.java.srcDir 'src/main/java'
+	main.resources.srcDir 'src/main/resources'
     test.java.srcDir 'src/test/java'
 }
