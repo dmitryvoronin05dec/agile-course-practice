@@ -1,4 +1,4 @@
-package ru.unn.agile.Huffman;
+package ru.unn.agile.Huffman.view;
 
 
         import javafx.application.Application;
