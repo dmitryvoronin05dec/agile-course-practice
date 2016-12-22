@@ -62,6 +62,8 @@ project(":code/quadratic-equation-solver/Model").name = "quadratic-equation-solv
 // Воронин Дмитрий
 include "code/Huffman/View"
 project(":code/Huffman/View").name = "Huffman-View"
+include "code/Huffman/Model"
+project(":code/Huffman/Model").name = "Huffman-Model"
 // Грошева Людмила
 include "code/Statistics/Model"
 project(":code/Statistics/Model").name = "Statistics-Model"
