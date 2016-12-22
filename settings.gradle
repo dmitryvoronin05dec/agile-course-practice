@@ -64,6 +64,8 @@ include "code/Huffman/View"
 project(":code/Huffman/View").name = "Huffman-View"
 include "code/Huffman/Model"
 project(":code/Huffman/Model").name = "Huffman-Model"
+include "code/Huffman/ViewModel"
+project(":code/Huffman/ViewModel").name = "Huffman-ViewModel"
 // Грошева Людмила
 include "code/Statistics/Model"
 project(":code/Statistics/Model").name = "Statistics-Model"
